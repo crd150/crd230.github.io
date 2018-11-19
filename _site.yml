@@ -1,0 +1,34 @@
+name: "CRD 298: Spatial Methods in Community Research"
+output_dir: "."
+navbar:
+  title: "CRD 298: Winter 2019"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Syllabus"
+      href: syllabus.html
+    - text: "Assignment Guidelines"
+      href: hw_guidelines.html
+    - text: "Labs/Assignments"
+      menu: 
+        - text: "Lab 0"
+          href: lab0.html
+        - text: "Lab 1"
+          href: lab1.html
+    - text: "Other"
+      menu: 
+        - text: "Data Sources"
+          href:  ndata.html   
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    mathjax: ~
+    toc_depth: 3
+    toc_float:
+      collapsed: yes
+      smooth_scroll: yes
+      number_sections: yes
+    css: styles.css
+    keep_md: true
+    lib_dir: site_libs
